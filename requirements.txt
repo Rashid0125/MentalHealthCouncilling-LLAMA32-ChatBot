@@ -1,0 +1,9 @@
+pip3-autoremove
+torch 
+torchvision 
+torchaudio
+unsloth
+trl
+seaborn
+streamlit 
+pyngrok
