@@ -7,3 +7,4 @@ trl
 seaborn
 streamlit 
 pyngrok
+python-dotenv

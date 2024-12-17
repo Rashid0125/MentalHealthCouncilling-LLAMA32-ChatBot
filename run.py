@@ -2,9 +2,16 @@ import streamlit as st
 from pyngrok import ngrok
 import subprocess
 import os
+from dotenv import load_dotenv
+
+# Load environment variables from the .env file
+load_dotenv()
+
+# Access the auth_key
+auth_key = os.getenv("ngrok_key")
 
 # Set your ngrok auth token
-ngrok.set_auth_token("2j2cdiWUxqPhlhRff7BKWm7ExuG_5VkGJ3s9bZ66KVGAS2XFn")  # Replace with your actual token
+ngrok.set_auth_token(auth_key)  # Replace with your actual token
 
 # Get the dev server port (defaults to 8501)
 port = 8501
