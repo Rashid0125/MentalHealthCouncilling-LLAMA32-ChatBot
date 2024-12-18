@@ -10,8 +10,8 @@ Welcome to the **Mental Health Counseling ChatBot**, a project designed to provi
 - **Extensible**: Modular design allows easy addition of new features and customizations.
 
 ## Project Structure
-
-MentalHealthCouncilling-LLAMA32-ChatBot/
+```
+MentalHealthCouncilling-LLAMA32-ChatBot
 ├── app.py                           # Main script to run the chatbot
 ├── requirements.txt                 # Python dependencies
 ├── fine-tuning-1b-llama.ipynb       # Notebook for model fine-tuning
@@ -19,6 +19,7 @@ MentalHealthCouncilling-LLAMA32-ChatBot/
 ├── models/                          # Pretrained and fine-tuned model files
 ├── .env                             # Example environment variables file
 └── README.md                        # Project documentation
+```
 
 ## Installation
 
